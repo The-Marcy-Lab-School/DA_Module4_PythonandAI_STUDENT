@@ -20,17 +20,18 @@ your Module 3 database (with a real fallback if it doesn't exist anymore).
 See `starter/` for everything you'll fill in:
 
 - **`db_connect.py`** — given connection mechanics for both psycopg2 and
-  SQLAlchemy; you write the real query and everything downstream of it.
+  SQLAlchemy; imported directly into `analysis.ipynb`, not run on its own.
+- **`analysis.ipynb`** — the graded hands-on notebook, in two parts: (1)
+  connect both ways, load into pandas, produce real summary statistics;
+  (2) independently clean a file from a domain you didn't work with in
+  Module 2/3 (see `data/SOURCE.md`) — find and resolve at least 2 real
+  data-quality issues, justify each choice, output a clean CSV.
 - **`tradeoff_comparison.md`** — your real psycopg2-vs-SQLAlchemy
   comparison, based on what you actually experienced running both.
 - **`ai_assisted_coding.md`** — draft a connection function with a
   free-tier AI assistant, then find and document a real bug or
   inefficiency before trusting it. First formally graded AI-assisted-
   coding work in the program — see the file for exactly what's expected.
-- **`independent_cleaning.md`** — no template. Pick a file from a domain
-  you didn't work with in Module 2/3 (see `data/SOURCE.md`), find and
-  resolve at least 2 real data-quality issues, justify each choice in
-  writing, output a clean CSV.
 
 `CHECKLIST_TIMELINE.md` has the suggested day-by-day pace and the full
 sequenced checklist. Commit incrementally — after your connection works,

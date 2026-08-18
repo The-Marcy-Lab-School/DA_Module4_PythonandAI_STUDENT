@@ -2,11 +2,12 @@
 Given connection template -- the connection mechanics themselves (opening,
 closing, reading credentials from the environment) are given so you're not
 reinventing driver boilerplate. What you write yourself: the actual query,
-and everything you do with the result once it's a DataFrame.
+and everything you do with the result once it's a DataFrame -- in
+`analysis.ipynb`, which imports these two functions directly.
 
-Before running anything here, set your Module 3 database's connection
-info as an environment variable (never hardcode it in this file -- see
-this module's own common_project_mistakes):
+Before running anything, set your Module 3 database's connection info as
+an environment variable (never hardcode it in this file -- see this
+module's own common_project_mistakes):
     export DATABASE_URL="postgresql://user:password@host:port/dbname"
 
 Setup (one-time):
@@ -50,18 +51,3 @@ def query_with_sqlalchemy(sql: str) -> pd.DataFrame:
     engine = create_engine(get_database_url())
     with engine.connect() as conn:
         return pd.read_sql(text(sql), conn)
-
-
-if __name__ == "__main__":
-    # TODO: write a real query against your own Module 3 schema -- one
-    # that pulls the rows you'll actually clean and analyze below.
-    my_query = "TODO"
-
-    df_psycopg2 = query_with_psycopg2(my_query)
-    df_sqlalchemy = query_with_sqlalchemy(my_query)
-
-    # TODO: confirm both DataFrames actually match (same shape, same
-    # values) -- don't just assume both connection methods returned the
-    # same thing.
-
-    # TODO: your real analysis/cleaning work starts here.

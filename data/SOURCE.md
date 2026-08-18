@@ -22,8 +22,8 @@ This folder has the identical files — nothing new to source or trust.
 
 ## 2. The independent data-quality cleaning exercise
 
-For this module's independent cleaning exercise (see
-`starter/independent_cleaning.md`), you'll work with **one file from a
+For this module's independent cleaning exercise (Part 2 of
+`starter/analysis.ipynb`), you'll work with **one file from a
 domain you did NOT choose in Module 2/3** — genuinely unseen data to you,
 even though it's not new to the project. Real, documented starting points
 per domain (full detail in each file's own real messiness, see Module 3's

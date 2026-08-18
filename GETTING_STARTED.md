@@ -62,4 +62,5 @@ explicitly in this module's own `common_project_mistakes` for a reason.
 ## What's next
 
 Once `DATABASE_URL` is set and you've confirmed it connects, open
-`starter/db_connect.py` and start there.
+`starter/analysis.ipynb` and start there — it imports `db_connect.py`'s
+given connection functions directly.

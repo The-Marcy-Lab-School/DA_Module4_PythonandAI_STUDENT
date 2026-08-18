@@ -18,20 +18,22 @@ this sprint's backlog — real work, deliberately not in scope this week.
 - [ ] `DATABASE_URL` confirmed connecting to your **Module 3** database —
   or, if it's gone, the real fallback rebuild done (see
   `GETTING_STARTED.md`/`data/SOURCE.md`).
-- [ ] `starter/independent_cleaning.md` read in full — pick your
+- [ ] `starter/analysis.ipynb`'s Part 2 intro read in full — pick your
   not-your-own-domain file now so you're not deciding on Day 4.
 - [ ] Commit: a real, descriptive message you write yourself.
 
 ## Day 2 — Connect both ways, compare them
 
-- [ ] `starter/db_connect.py`: a real query written, run successfully via
-  **both** `query_with_psycopg2` and `query_with_sqlalchemy`, both
-  confirmed to return the same real result.
+- [ ] `starter/analysis.ipynb` Part 1: a real query written, run
+  successfully via **both** `query_with_psycopg2` and
+  `query_with_sqlalchemy` (imported from `db_connect.py`), both confirmed
+  to return the same real result, and at least 2 real summary statistics
+  produced from it.
   > ⚠️ Common mistake: hardcoding your database credentials directly in
-  > the script instead of reading `DATABASE_URL` from the environment.
+  > the notebook instead of reading `DATABASE_URL` from the environment.
   > ⚠️ Common mistake: never closing/releasing the connection — confirm
-  > the given template's `finally: conn.close()` is actually still there
-  > and you haven't removed it while editing.
+  > `db_connect.py`'s given `finally: conn.close()` is actually still
+  > there and you haven't removed it while editing.
 - [ ] `starter/tradeoff_comparison.md` completed — reasoned from what you
   actually saw running both, not a general definition of either.
 - [ ] Commit: a real, descriptive message you write yourself.
@@ -55,7 +57,7 @@ this sprint's backlog — real work, deliberately not in scope this week.
 
 ## Day 4 — Independent data-quality cleaning
 
-- [ ] `starter/independent_cleaning.md` completed: ≥2 real issues found
+- [ ] `starter/analysis.ipynb` Part 2 completed: ≥2 real issues found
   and resolved in your chosen not-your-own-domain file, each justified in
   writing with a specific reason.
   > ⚠️ Common mistake: a silent `.dropna()` with no check on how much data
