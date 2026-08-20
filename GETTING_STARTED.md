@@ -39,25 +39,45 @@ uv add pandas psycopg2-binary sqlalchemy
 
 ## Reconnect to your Module 3 database
 
-Your script connects to the **same PostgreSQL database you built in
-Module 3** — not a new one.
+**What actually connects:** `starter/analysis.ipynb` is where the real
+connecting happens — it's the notebook you'll open and run. `db_connect.py`
+is not something you run on its own; it's a given module of connection
+*functions* (`query_with_psycopg2`, `query_with_sqlalchemy`) that the
+notebook imports and calls. Same database either way — just one file
+holds the reusable connection logic, the other is where you actually use
+it.
+
+**The database name itself doesn't matter, and doesn't need to match
+anything.** Whatever you named your database in Module 3 — an
+auto-generated name from a hosted Supabase/Neon project, or a name you
+picked yourself with a local `createdb` — is fine exactly as-is.
+`DATABASE_URL` is a full connection string (host, port, database name,
+username, password, all bundled into one string); as long as it's the
+**same one** you used in Module 3 (or a real equivalent, if you rebuild
+below), it already points at the right database regardless of what it's
+called. There's no "correct" name to match — only "does this connection
+string point at your actual data."
 
 1. Confirm it's still reachable: `psql <your Module 3 connection string>`
-   (or however you connected it there). If you get a real prompt, you're
-   done — set `DATABASE_URL` as an environment variable and move on:
+   (whatever you used there — the exact same string, name and all). If
+   you get a real prompt, you're done — set `DATABASE_URL` to that same
+   string as an environment variable and move on:
    ```bash
    export DATABASE_URL="postgresql://user:password@host:port/dbname"
    ```
 2. **If it's gone** (an expired free hosted project, a reformatted
    laptop, etc.): pull your own `schema.sql` from your Module 3 GitHub
-   repo, recreate the database, and reload it via `\copy` from
-   `data/<your-domain>/` in **this** repo (identical files — see
-   `data/SOURCE.md`). You already know how to do every step here; you did
-   it once already.
+   repo, recreate a database (any name — a new hosted project will
+   generate one for you; locally, `createdb <any-name-you-want>` works
+   fine), and reload it via `\copy` from `data/<your-domain>/` in
+   **this** repo (identical files — see `data/SOURCE.md`). Then set
+   `DATABASE_URL` to point at *that* new database. You already know how
+   to do every step here; you did it once already.
 
-**Never hardcode `DATABASE_URL` (or any credential) directly in a `.py`
-file** — read it from the environment, every time. This is named
-explicitly in this module's own `common_project_mistakes` for a reason.
+**Never hardcode `DATABASE_URL` (or any credential) directly in
+`db_connect.py`, `analysis.ipynb`, or anywhere else** — read it from the
+environment, every time. This is named explicitly in this module's own
+`common_project_mistakes` for a reason.
 
 ## What's next
 
