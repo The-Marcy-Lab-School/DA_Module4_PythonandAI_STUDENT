@@ -1,8 +1,8 @@
 # psycopg2 vs. SQLAlchemy: Your Real Comparison
 
-You just connected to your own database both ways in `db_connect.py`.
+You just connected to your own database both ways in `analysis.ipynb`.
 Now compare them for real — not a textbook definition of each, reasoning
-about *this actual script and this actual query*.
+about *this actual notebook and this actual query*.
 
 ## The comparison framework
 
@@ -18,7 +18,7 @@ running both, not what you'd expect in the abstract:
 
 ## Your recommendation
 
-For **your actual script** — a one-off analyst pulling a query result into
+For **your actual notebook** — a one-off analyst pulling a query result into
 pandas, not a production application — which one would you genuinely
 reach for by default, and why? Be specific about *this* scenario, not a
 general "SQLAlchemy is more powerful" statement that could apply to any
