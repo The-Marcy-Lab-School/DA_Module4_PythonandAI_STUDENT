@@ -2,7 +2,7 @@
 Preview -- code given, you don't need to write this yourself.
 
 Compares pandas vs. polars reading and querying the same CSV -- the file
-you're already using in starter/independent_cleaning.md. This module's own
+you're already using in starter/analysis.ipynb's Part 2. This module's own
 tools notes flag polars as a real, faster modern alternative worth knowing
 exists (unlike Module 2, where it was deliberately left out) -- this is
 that awareness, hands-on.
