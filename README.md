@@ -11,7 +11,9 @@ edit directly on Marcy's copy of it.
 
 ## Getting started
 
-See `GETTING_STARTED.md` — git setup (tested again this module, less
+**Before you do anything else**: click **"Use this template"** on this
+repo's GitHub page (not "Fork") to create your own copy. See
+`GETTING_STARTED.md` — git setup (tested again this module, less
 hand-holding than Module 0), `uv` environment setup, and reconnecting to
 your Module 3 database (with a real fallback if it doesn't exist anymore).
 
