@@ -26,6 +26,24 @@ well-messaged commits... up from the single first commit in Module 0").
   per real milestone (connection working, cleaning done, etc.), not
   everything bundled into one commit at the end.
 
+### What your repo should look like once this step is done
+
+```
+your-repo-name/
+├── .gitignore          ← you create this
+├── LICENSE             ← you create this
+├── README.md           ← already here
+├── PROJECT_OVERVIEW.md ← already here
+├── GETTING_STARTED.md  ← already here
+├── CHECKLIST_TIMELINE.md ← already here
+├── data/               ← already here (4 real domains, pick one)
+└── starter/
+    ├── db_connect.py           ← already here (given connection functions)
+    ├── analysis.ipynb          ← already here (this is what you run)
+    ├── tradeoff_comparison.md  ← already here (fill in)
+    └── ai_assisted_coding.md   ← already here (fill in)
+```
+
 ## Set up your Python environment with `uv`
 
 `uv` is a modern, fast Python package/environment manager — new this
