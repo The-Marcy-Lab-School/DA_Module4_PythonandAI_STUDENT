@@ -72,7 +72,18 @@ this sprint's backlog — real work, deliberately not in scope this week.
 
 - [ ] Final pass: no hardcoded credentials anywhere in the repo (grep your
   own files for your actual password/connection string before pushing).
-- [ ] `README.md` accurate; repo confirmed **public**.
+- [ ] **Delete `PROJECT_OVERVIEW.md`** — it explains the assignment, not
+  your project; a real portfolio repo shouldn't have "here's what you
+  were asked to build" sitting in it.
+- [ ] **Replace `README.md`'s content with your own real project README**
+  — write it for someone who's never seen this assignment:
+  - **Business Problem** — what question your analysis answers.
+  - **Methodology** — psycopg2 vs. SQLAlchemy, and your real cleaning
+    approach for the unfamiliar domain.
+  - **Key Findings** — your real summary statistics and cleaning
+    decisions.
+  - **AI Integration/Validation** — the real bug/inefficiency you caught
+    in the AI-drafted connection function.
 - [ ] Final self-check against this checklist before calling it done.
 - [ ] Commit(s) pushed — `git log --oneline` should show real,
   incremental history (3+ commits), not one giant final commit.
