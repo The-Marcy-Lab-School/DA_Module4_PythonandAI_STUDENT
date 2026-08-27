@@ -41,7 +41,7 @@ again after the AI-review exercise, again after the independent cleaning
 — not one commit at the end.
 
 **Where's the exact bar for "done," and what are the optional stretch
-goals?** This repo (your own copy) doesn't include `MVP.md` or
-`ABOVE_AND_BEYOND.md` on purpose. Ask your instructor for the link to
+goals?** This repo (your own copy) doesn't include `MVP.md` (your **M**inimum **V**iable **P**roduct —
+the required baseline) or `ABOVE_AND_BEYOND.md` on purpose. Ask your instructor for the link to
 this template's `project-scope` branch, or check the checklist your
 instructor shares through the classroom.
