@@ -72,6 +72,9 @@ this sprint's backlog — real work, deliberately not in scope this week.
 
 - [ ] Final pass: no hardcoded credentials anywhere in the repo (grep your
   own files for your actual password/connection string before pushing).
+- [ ] Clean sweep of your script: no leftover debug `print()` calls,
+  commented-out dead code, or scratch experiments left in — only the
+  real, working script.
 - [ ] **Delete `PROJECT_OVERVIEW.md`** — it explains the assignment, not
   your project; a real portfolio repo shouldn't have "here's what you
   were asked to build" sitting in it.
@@ -84,6 +87,8 @@ this sprint's backlog — real work, deliberately not in scope this week.
     decisions.
   - **AI Integration/Validation** — the real bug/inefficiency you caught
     in the AI-drafted connection function.
+- [ ] Final push to GitHub — confirm the repo is actually **public** (open
+  it in a private/incognito browser window to check).
 - [ ] Final self-check against this checklist before calling it done.
 - [ ] Commit(s) pushed — `git log --oneline` should show real,
   incremental history (3+ commits), not one giant final commit.
