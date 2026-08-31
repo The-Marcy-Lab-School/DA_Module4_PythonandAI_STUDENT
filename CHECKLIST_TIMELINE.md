@@ -96,12 +96,17 @@ this sprint's backlog — real work, deliberately not in scope this week.
 **Exit criterion:** everything above is done and pushed. That's the whole
 sprint. Backlog items (`ABOVE_AND_BEYOND.md`) are exactly that — backlog.
 
-## After Day 5: peer data-quality-log review
+## Day 6 — Share-out
 
-Right after Day 5 (or in a separate session), your instructor will run an
-anonymized peer review of data-quality logs — reviewed as a teammate who'd
-inherit this cleaned dataset, not as a grader. No extra prep needed — just
-have your repo pushed and public.
+Your instructor schedules this once every submission is in — usually a
+few days after Day 5, not necessarily the next calendar day. Real
+session, not optional: an anonymized peer review of classmates'
+data-quality-cleaning logs (`analysis.ipynb`'s Part 2, the independent-
+cleaning section), reviewed in groups of 3 against real specificity/
+verification/duplicate-judgment questions in a shared doc, then a
+share-out of trends across logs. No extra prep needed — just have your
+repo pushed and public before the session — see your instructor for the
+exact date.
 
 ## Above & Beyond
 

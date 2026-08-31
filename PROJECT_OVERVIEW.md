@@ -58,7 +58,8 @@ Modules 8, 9, 11, 12, 13, and the Capstone.
 ## Timeline
 
 See `CHECKLIST_TIMELINE.md` for the day-by-day sprint pace and the full
-submission checklist.
+submission checklist — 5 build days, plus a required share-out session
+scheduled after.
 
 ## Where to start
 
