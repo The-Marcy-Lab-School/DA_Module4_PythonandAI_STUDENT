@@ -23,9 +23,9 @@ live query result into Python to actually do something with it. This is
 also the first time an AI coding assistant is a *graded* part of your
 work, not just something you might personally use — verifying an AI's
 suggestion before trusting it is a real, permanent habit, not a one-time
-exercise. It gets used immediately: this connects directly to **Module 5**
+exercise. It gets used immediately: this connects directly to **Module 6**
 (Business Analytics), and real Python fluency keeps compounding through
-Modules 8, 9, 11, 12, 13, and the Capstone.
+Modules 9, 9, 11, 12, 13, and the Capstone.
 
 ## Deliverables at a glance
 
