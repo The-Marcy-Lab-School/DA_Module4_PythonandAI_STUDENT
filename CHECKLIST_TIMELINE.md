@@ -116,7 +116,7 @@ repeated here. Details in `ABOVE_AND_BEYOND.md`.
 - [ ] Run the given-code `above_and_beyond/polars_comparison.py` and write
   a short reflection comparing it to your own pandas workflow.
 - [ ] Run the given-code `above_and_beyond/excel_export_preview.py`
-  (Module 5 preview) and write a short reflection.
+  (Module 6 preview) and write a short reflection.
 - [ ] Commit a `uv.lock` file and confirm a clean re-install from it.
 - [ ] Define a real SQLAlchemy ORM model class for one of your tables and
   use it for one query, instead of raw SQL strings.
