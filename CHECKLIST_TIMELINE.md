@@ -12,12 +12,12 @@ this sprint's backlog — real work, deliberately not in scope this week.
 - [ ] Repo created from the template via **"Use this template"** (not
   Fork), cloned locally.
 - [ ] `.gitignore`/`LICENSE` created **yourself** this time (see
-  [`GETTING_STARTED.md`](GETTING_STARTED.md)) and committed.
+  `GETTING_STARTED.md`) and committed.
 - [ ] `uv`-managed environment set up; `pandas`/`psycopg2-binary`/
   `sqlalchemy` installed.
 - [ ] `DATABASE_URL` confirmed connecting to your **Module 3** database —
   or, if it's gone, the real fallback rebuild done (see
-  [`GETTING_STARTED.md`](GETTING_STARTED.md)/[`data/SOURCE.md`](data/SOURCE.md)).
+  `GETTING_STARTED.md`/`data/SOURCE.md`).
 - [ ] `starter/analysis.ipynb`'s Part 2 intro read in full — you'll need
   at least 2 of your **own** Module 3 tables, so know which two before
   Day 4.
@@ -35,7 +35,7 @@ this sprint's backlog — real work, deliberately not in scope this week.
   > ⚠️ Common mistake: never closing/releasing the connection — confirm
   > `db_connect.py`'s given `finally: conn.close()` is actually still
   > there and you haven't removed it while editing.
-- [ ] [`starter/tradeoff_comparison.md`](starter/tradeoff_comparison.md)
+- [ ] `starter/tradeoff_comparison.md`
   completed — reasoned from what you actually saw running both, not a
   general definition of either.
 - [ ] Commit: a real, descriptive message you write yourself.
@@ -44,7 +44,7 @@ this sprint's backlog — real work, deliberately not in scope this week.
 
 ## Day 3 — AI-assisted coding exercise
 
-- [ ] [`starter/ai_assisted_coding.md`](starter/ai_assisted_coding.md)
+- [ ] `starter/ai_assisted_coding.md`
   completed: a real AI-drafted connection function pasted in full, a real
   bug or inefficiency actually found by tracing through it, a written fix.
   > ⚠️ Common mistake: accepting AI-suggested connection code without

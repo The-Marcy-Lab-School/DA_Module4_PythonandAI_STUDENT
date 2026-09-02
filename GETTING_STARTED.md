@@ -89,9 +89,9 @@ through Python instead, using this module's own given `db_connect.py`:
    If that prints back a real result, you're done — move on.
 2. **If it's gone** (an expired free hosted project, a reformatted
    laptop, etc.): you need a database to point at again first — see
-   Module 3's own [`GETTING_STARTED.md`](../../Module3_SQLRelational/student/GETTING_STARTED.md)
-   for the hosted-vs-local install steps (same choice you already made
-   once). Once you have a fresh database, rebuild it the same
+   your own Module 3 repo's own `GETTING_STARTED.md` for the hosted-vs-
+   local install steps (same choice you already made once). Once you
+   have a fresh database, rebuild it the same
    Python-only way Module 3 did — pull your own `starter/schema.sql` and
    `starter/db.py` from your **Module 3** GitHub repo, then from that
    repo run:
