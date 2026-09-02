@@ -1,7 +1,7 @@
 """
-Preview of Module 5 -- code given, you don't need to write this yourself.
+Preview of Module 6 -- code given, you don't need to write this yourself.
 
-Module 5 (the very next module) is Business Analytics: Excel & KPI
+Module 6 (the very next module) is Business Analytics: Excel & KPI
 Development. A real, working look at one thing that connects directly:
 exporting a cleaned pandas DataFrame to a real Excel file, not just a CSV.
 
@@ -9,7 +9,7 @@ Setup (one-time):
     uv add openpyxl
 
 Usage:
-    python3 above_and_beyond/excel_export_preview.py independent_cleaning_output.csv
+    python3 above_and_beyond/excel_export_preview.py clean_analysis_output.csv
 """
 import sys
 
@@ -22,7 +22,7 @@ def export_to_excel(csv_path: str, xlsx_path: str = "cleaned_output.xlsx") -> No
     with pd.ExcelWriter(xlsx_path, engine="openpyxl") as writer:
         df.to_excel(writer, sheet_name="Cleaned Data", index=False)
 
-        # A real second sheet -- a quick summary, the kind of thing Module 5
+        # A real second sheet -- a quick summary, the kind of thing Module 6
         # builds much further into a real KPI workbook.
         summary = pd.DataFrame(
             {
@@ -39,6 +39,6 @@ if __name__ == "__main__":
     if len(sys.argv) < 2:
         raise SystemExit(
             "Usage: python3 above_and_beyond/excel_export_preview.py "
-            "independent_cleaning_output.csv"
+            "clean_analysis_output.csv"
         )
     export_to_excel(sys.argv[1])

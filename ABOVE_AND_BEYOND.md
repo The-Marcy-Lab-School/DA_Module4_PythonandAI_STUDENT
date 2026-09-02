@@ -4,17 +4,17 @@ Only the additional items — everything in `MVP.md` still applies and isn't
 repeated here. Pick these up only after MVP is genuinely done and pushed;
 this is a bonus sprint, not part of this one.
 
-- [ ] **Preview of Module 5 — code given, you don't need to write this
+- [ ] **Preview of Module 6 — code given, you don't need to write this
   yourself.** Run `above_and_beyond/excel_export_preview.py` against your
-  `independent_cleaning_output.csv`. Module 5 (the very next module) is
+  `clean_analysis_output.csv`. Module 6 (the very next module) is
   Business Analytics: Excel & KPI Development — this is a real, working
   look at exactly what that module builds on. Write a short reflection on
   what a second Excel sheet (a real summary, however small) starts to
   hint at that a single CSV can't do.
 
 - [ ] **Given-code polars comparison.** Run
-  `above_and_beyond/polars_comparison.py` against your independent-cleaning
-  file. This module's own tools list flags polars as a real, faster
+  `above_and_beyond/polars_comparison.py` against your
+  `clean_analysis_output.csv`. This module's own tools list flags polars as a real, faster
   modern alternative — unlike Module 2, where it was deliberately left
   out, it's fair game here. Write a short comparison of what you actually
   saw (remember: small-file timing genuinely varies run to run — look for

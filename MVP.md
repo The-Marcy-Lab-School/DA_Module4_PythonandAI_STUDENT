@@ -13,11 +13,13 @@ your instructor) — this is the scannable bar, not the explanation.
 - [ ] `starter/ai_assisted_coding.md` completed: a real AI-drafted
   connection function pasted in full, a real bug/inefficiency found by
   actually tracing through it, a written fix.
-- [ ] `starter/analysis.ipynb` Part 2: a file from a domain you did
-  **not** work with in Module 2/3, at least 2 real data-quality issues
-  found and resolved, each justified in writing with a specific reason —
-  not "cleaned the data."
-- [ ] `independent_cleaning_output.csv` produced.
+- [ ] `starter/analysis.ipynb` Part 2: at least 2 of your **own** Module
+  3 tables pulled raw (no `JOIN`/`GROUP BY` in the SQL), at least 2 real
+  data-quality issues found and resolved, each justified in writing with
+  a specific reason — not "cleaned the data" — then joined with
+  `pd.merge()` and aggregated with `.groupby()` in pandas to answer a
+  real question different from Part 1's.
+- [ ] `clean_analysis_output.csv` produced.
 - [ ] No hardcoded credentials anywhere in the repo; connections closed/
   released properly.
 - [ ] Public GitHub repo, real incremental commits (3+, not one at the
