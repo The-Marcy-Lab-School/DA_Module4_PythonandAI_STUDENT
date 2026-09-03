@@ -34,11 +34,10 @@ See [`starter/`](starter/) for everything you'll fill in:
   Python (pandas or polars, your choice) instead of more SQL; find and
   resolve at least 2 real data-quality issues in your own data along
   the way, justify each choice, output a clean CSV.
-- [`tradeoff_comparison.md`](starter/tradeoff_comparison.md) — your real
+- [`reflections.md`](starter/reflections.md) — two sections: your real
   psycopg2-vs-SQLAlchemy comparison, based on what you actually
-  experienced running both.
-- [`ai_assisted_coding.md`](starter/ai_assisted_coding.md) — draft a
-  connection function with a free-tier AI assistant, then find and
+  experienced running both; and the AI-assisted-coding exercise — draft
+  a connection function with a free-tier AI assistant, then find and
   document a real bug or inefficiency before trusting it. First formally
   graded AI-assisted-coding work in the program — see the file for
   exactly what's expected.

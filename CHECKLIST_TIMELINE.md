@@ -14,7 +14,8 @@ this sprint's backlog — real work, deliberately not in scope this week.
 - [ ] `.gitignore`/`LICENSE` created **yourself** this time (see
   `GETTING_STARTED.md`) and committed.
 - [ ] `uv`-managed environment set up; `pandas`/`psycopg2-binary`/
-  `sqlalchemy` installed.
+  `sqlalchemy` installed (add `polars` too if that's the library you
+  want for Part 2's join/aggregation work).
 - [ ] `DATABASE_URL` confirmed connecting to your **Module 3** database —
   or, if it's gone, the real fallback rebuild done (see
   `GETTING_STARTED.md`/`data/SOURCE.md`).
@@ -35,8 +36,8 @@ this sprint's backlog — real work, deliberately not in scope this week.
   > ⚠️ Common mistake: never closing/releasing the connection — confirm
   > `db_connect.py`'s given `finally: conn.close()` is actually still
   > there and you haven't removed it while editing.
-- [ ] `starter/tradeoff_comparison.md`
-  completed — reasoned from what you actually saw running both, not a
+- [ ] `starter/reflections.md`'s tool-comparison section completed —
+  reasoned from what you actually saw running both, not a
   general definition of either.
 - [ ] Commit: a real, descriptive message you write yourself.
 
@@ -44,7 +45,7 @@ this sprint's backlog — real work, deliberately not in scope this week.
 
 ## Day 3 — AI-assisted coding exercise
 
-- [ ] `starter/ai_assisted_coding.md`
+- [ ] `starter/reflections.md`'s AI-assisted-coding section
   completed: a real AI-drafted connection function pasted in full, a real
   bug or inefficiency actually found by tracing through it, a written fix.
   > ⚠️ Common mistake: accepting AI-suggested connection code without
@@ -57,18 +58,19 @@ this sprint's backlog — real work, deliberately not in scope this week.
 
 **Daily check-in.**
 
-## Day 4 — Deepen & clean your own data, in pandas
+## Day 4 — Deepen & clean your own data, in Python
 
 - [ ] `starter/analysis.ipynb` Part 2 completed: **≥2 of your own Module
   3 tables** pulled in raw (no `JOIN`/`GROUP BY` in the SQL), ≥2 real
   data-quality issues found and resolved in them, each justified in
   writing with a specific reason.
-  > ⚠️ Common mistake: a silent `.dropna()` with no check on how much data
+  > ⚠️ Common mistake: a silent null-drop with no check on how much data
   > that actually discarded, or why — always confirm with a real
-  > `.isna().sum()` before and after, and say what you found.
-- [ ] Your cleaned tables **joined with `pd.merge()` and aggregated with
-  `.groupby()`, in pandas** — a real business question about your own
-  data, answered by writing Python, not another SQL query.
+  > null count before and after, and say what you found.
+- [ ] Your cleaned tables **joined and aggregated with a real group-level
+  comparison across a categorical variable, in pandas or polars** — a
+  real business question about your own data, answered by writing
+  Python, not another SQL query.
 - [ ] `clean_analysis_output.csv` produced.
 - [ ] Commit: a real, descriptive message you write yourself.
 
@@ -88,9 +90,9 @@ this sprint's backlog — real work, deliberately not in scope this week.
   — write it for someone who's never seen this assignment:
   - **Business Problem** — what question your analysis answers.
   - **Methodology** — psycopg2 vs. SQLAlchemy, and how you joined,
-    cleaned, and aggregated your own tables in pandas.
+    cleaned, and aggregated your own tables in Python.
   - **Key Findings** — your real summary statistics, the result of your
-    pandas join/aggregation, and your cleaning decisions.
+    join/aggregation, and your cleaning decisions.
   - **AI Integration/Validation** — the real bug/inefficiency you caught
     in the AI-drafted connection function.
 - [ ] Final push to GitHub — confirm the repo is actually **public** (open
