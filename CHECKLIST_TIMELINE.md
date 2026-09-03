@@ -118,6 +118,11 @@ session — see your instructor for the exact date.
 Only the additional items — everything above still applies and isn't
 repeated here. Details in `ABOVE_AND_BEYOND.md`.
 
+**This section's own given code (`above_and_beyond/`) isn't in your repo
+by default** — it lives on this template's `project-scope` branch, same
+as `MVP.md`/`ABOVE_AND_BEYOND.md`. Ask your instructor for that branch's
+link if you want to pick any of this up.
+
 - [ ] Run the given-code `above_and_beyond/polars_comparison.py` and write
   a short reflection comparing it to your own pandas workflow.
 - [ ] Run the given-code `above_and_beyond/excel_export_preview.py`
