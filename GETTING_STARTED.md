@@ -40,8 +40,7 @@ your-repo-name/
 └── starter/
     ├── db_connect.py           ← already here (given connection functions)
     ├── analysis.ipynb          ← already here (this is what you run)
-    ├── tradeoff_comparison.md  ← already here (fill in)
-    └── ai_assisted_coding.md   ← already here (fill in)
+    └── reflections.md          ← already here (fill in both sections)
 ```
 
 ## Set up your Python environment with `uv`
