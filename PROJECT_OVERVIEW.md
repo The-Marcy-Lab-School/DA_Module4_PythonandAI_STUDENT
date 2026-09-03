@@ -34,7 +34,7 @@ your work, not just something you might personally use — verifying an
 AI's suggestion before trusting it is a real, permanent habit, not a
 one-time exercise. It gets used immediately: this connects directly to
 **Module 6** (Business Analytics), and real Python fluency keeps
-compounding through Modules 9, 9, 11, 12, 13, and the Capstone.
+compounding through Modules 8, 8, 10, 11, 12, and the Capstone.
 
 ## Deliverables at a glance
 
