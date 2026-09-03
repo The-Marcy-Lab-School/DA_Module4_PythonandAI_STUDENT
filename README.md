@@ -30,9 +30,10 @@ See [`starter/`](starter/) for everything you'll fill in:
   notebook, in two parts: (1) connect both ways, load into pandas,
   produce real summary statistics; (2) pull at least two of your own
   Module 3 tables in raw, and do the real relational work — joining and
-  aggregating — yourself in pandas instead of more SQL; find and resolve
-  at least 2 real data-quality issues in your own data along the way,
-  justify each choice, output a clean CSV.
+  a group-level comparison across a categorical variable — yourself in
+  Python (pandas or polars, your choice) instead of more SQL; find and
+  resolve at least 2 real data-quality issues in your own data along
+  the way, justify each choice, output a clean CSV.
 - [`tradeoff_comparison.md`](starter/tradeoff_comparison.md) — your real
   psycopg2-vs-SQLAlchemy comparison, based on what you actually
   experienced running both.

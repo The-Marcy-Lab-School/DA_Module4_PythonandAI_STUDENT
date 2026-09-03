@@ -10,11 +10,13 @@ Reconnect to your real Module 3 PostgreSQL database, then:
   on what you actually experienced, not a textbook definition.
 - **Pull at least two of your own tables** into pandas as raw,
   unaggregated data — no `JOIN`, no `GROUP BY` in the SQL this time.
-- **Do the relational work yourself, in pandas** — join your tables with
-  `pd.merge()` and answer a real business question with `.groupby()`,
-  instead of writing another SQL query to do it for you. This is the
-  actual point of the module: Module 3 already proved you can join and
-  aggregate in SQL — this time it happens as real Python objects.
+- **Do the relational work yourself, in Python** — join your tables and
+  answer a real business question with a group-level comparison across
+  a categorical variable, instead of writing another SQL query to do it
+  for you. **pandas or polars, your choice** — this is the actual point
+  of the module: Module 3 already proved you can join and aggregate in
+  SQL — this time it happens as real Python objects, and figuring out
+  which DataFrame operations get you there is part of the exercise.
 - **Find and resolve at least 2 real data-quality issues** in your own
   data along the way — justify each decision in writing, and output a
   clean, analysis-ready CSV.
@@ -47,16 +49,17 @@ compounding through every module from here to the Capstone.
 - A real AI-drafted connection function, plus your own written
   correction log documenting a real bug/inefficiency you found and fixed.
 - At least two of your own Module 3 tables, joined and aggregated in
-  pandas (not SQL) to answer a real question about your own data — with
-  ≥2 real data-quality issues found and resolved along the way, each
-  justified in writing, and a clean output CSV.
+  Python (pandas or polars, not SQL) to answer a real question about
+  your own data — with ≥2 real data-quality issues found and resolved
+  along the way, each justified in writing, and a clean output CSV.
 - Real, incremental commits — no hardcoded credentials anywhere.
 
 ## Skills you'll practice
 
 - **Python** — connecting to a live database two different ways, and
   doing real relational work (joining, grouping, aggregating) on the
-  result as pandas objects instead of more SQL.
+  result as real DataFrame objects (pandas or polars) instead of more
+  SQL.
 - **Data Analysis** — independently finding and resolving real
   data-quality issues in your own data, with real written justification.
 - **AI-Assisted Coding** — using an AI assistant as a first draft, then
