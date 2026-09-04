@@ -34,8 +34,8 @@ not just asking the database to hand back an already-finished answer.
 This is also the first time an AI coding assistant is a *graded* part of
 your work, not just something you might personally use — verifying an
 AI's suggestion before trusting it is a real, permanent habit, not a
-one-time exercise. It gets used immediately: this connects directly to
-**Module 6** (Business Analytics), and real Python fluency keeps
+one-time exercise. It gets used immediately: **Module 5** (Inferential
+Statistics) reuses this same Python fluency directly, and it keeps
 compounding through every module from here to the Capstone.
 
 ## Deliverables at a glance
@@ -44,14 +44,16 @@ compounding through every module from here to the Capstone.
   real `.gitignore`/`LICENSE` you set up yourself.
 - A working connection to your Module 3 database via **both** psycopg2
   and SQLAlchemy, pulling a real query result into pandas.
-- A written psycopg2-vs-SQLAlchemy comparison, reasoned from your own
-  actual script.
-- A real AI-drafted connection function, plus your own written
-  correction log documenting a real bug/inefficiency you found and fixed.
-- At least two of your own Module 3 tables, joined and aggregated in
-  Python (pandas or polars, not SQL) to answer a real question about
-  your own data — with ≥2 real data-quality issues found and resolved
-  along the way, each justified in writing, and a clean output CSV.
+- [`starter/reflections.md`](starter/reflections.md) — a written
+  psycopg2-vs-SQLAlchemy comparison reasoned from your own actual
+  script, plus your own written correction log documenting a real
+  bug/inefficiency you found and fixed in a real AI-drafted connection
+  function.
+- [`starter/analysis.ipynb`](starter/analysis.ipynb) — at least two of
+  your own Module 3 tables, joined and aggregated in Python (pandas or
+  polars, not SQL) to answer a real question about your own data — with
+  ≥2 real data-quality issues found and resolved along the way, each
+  justified in writing, and a clean output CSV.
 - Real, incremental commits — no hardcoded credentials anywhere.
 
 ## Skills you'll practice
