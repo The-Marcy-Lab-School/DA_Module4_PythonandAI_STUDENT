@@ -121,9 +121,10 @@ Only the additional items — everything above still applies and isn't
 repeated here. Details in `ABOVE_AND_BEYOND.md`.
 
 **This section's own given code (`above_and_beyond/`) isn't in your repo
-by default** — it lives on this template's `project-scope` branch, same
-as `MVP.md`/`ABOVE_AND_BEYOND.md`. Ask your instructor for that branch's
-link if you want to pick any of this up.
+by default** — it lives on this template's `project-scope` branch, same as
+`MVP.md`/`ABOVE_AND_BEYOND.md`. To pick any of this up, go back to the
+original template repo you created yours from and switch to its
+`project-scope` branch.
 
 - [ ] Run the given-code `above_and_beyond/polars_comparison.py` and write
   a short reflection comparing it to your own pandas workflow.
