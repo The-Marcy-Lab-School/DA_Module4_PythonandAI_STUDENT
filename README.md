@@ -48,7 +48,9 @@ after your connection works, again after the AI-review exercise, again
 after the pandas join/cleaning work — not one commit at the end.
 
 **Where's the exact bar for "done," and what are the optional stretch
-goals?** This repo (your own copy) doesn't include `MVP.md` (your **M**inimum **V**iable **P**roduct —
-the required baseline) or `ABOVE_AND_BEYOND.md` on purpose. Ask your instructor for the link to
-this template's `project-scope` branch, or check the checklist your
-instructor shares through the classroom.
+goals?** This repo (your own copy) doesn't include `MVP.md` (your
+**M**inimum **V**iable **P**roduct — the required baseline) or
+`ABOVE_AND_BEYOND.md` on purpose. Find them on the original template repo
+you created yours from — switch to its `project-scope` branch (on the
+*template's* GitHub page, not your own copy) — or use the MVP checklist in
+the LMS, which covers the same ground.
